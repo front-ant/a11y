@@ -6,7 +6,7 @@ button:hover,
 button:focus,
 a:hover,
 a:focus {
-  outline: none;
+  outline: dotted grey;
   color: inherit;
   text-decoration: none;
 }
@@ -24,6 +24,10 @@ a:focus {
 .jumbotron .mdl-button {
   background-color: #008b00;
   color: #FFFFFF;
+}
+
+ .mdl-button:focus {
+  background-color: rgb(233, 224, 10);
 }
 
 .mdl-button.raised {
