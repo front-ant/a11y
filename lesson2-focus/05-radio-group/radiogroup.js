@@ -31,8 +31,7 @@
 
         e.preventDefault();
 
-        // This seems like a good place to do some stuff :)
-
+        RadioGroup.prototype.changeFocus();
         break;
 
       }
